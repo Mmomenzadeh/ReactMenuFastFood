@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../font/Vazir-Regular-FD.woff2);
+}
+html,
+body {
+  font-family: "vazir";
+}
+
+body {
+  background-color: salmon;
+}
