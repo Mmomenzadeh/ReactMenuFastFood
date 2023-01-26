@@ -4,6 +4,8 @@
   background-color: #fff;
   display: flex;
   border-radius: 10px;
+  direction: rtl;
+
 }
 
 

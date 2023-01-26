@@ -1,0 +1,37 @@
+.bill-container{
+  background-color: #fff8;
+    height: 200px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row-bill{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-size: 13px;
+}
+
+.row-yellow{
+    background-color: #ffc72c;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 3px;
+    background-color: rgb(194, 2, 2);
+    color: #fff;
+    cursor: pointer;
+}

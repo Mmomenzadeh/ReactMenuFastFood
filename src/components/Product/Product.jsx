@@ -1,6 +1,6 @@
 import "../../assets/styles/product.css";
 import "../../assets/styles/button.css";
-import { ProductButton } from "../Button/Button";
+import Button  from "../Button/Button";
 
 
 const Product = ({ url, title, price }) => {
@@ -14,9 +14,9 @@ const Product = ({ url, title, price }) => {
         <p className="product-price">{price} تومان</p>
         <div className="calculation">
           <div className="product-counter">
-            <ProductButton btnStyle="btn-product btn-radius-1" text="+" />
+            <Button btnStyle="btn-product btn-radius-1" text="+" />
             <p className="counter">0</p>
-            <ProductButton btnStyle="btn-product btn-radius-2" text="-" />
+            <Button btnStyle="btn-product btn-radius-2" text="-" />
           </div>
           <p className="product-totalPrice">0تومان</p>
         </div>

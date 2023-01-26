@@ -1,13 +1,11 @@
-.ProductList-container{
-    width: 700px;
-    height: 350px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: #fff8;
-    overflow-y: scroll;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 50px;
-
+.ProductList-container {
+  height: 78%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  overflow-y: scroll;
+  direction: ltr;
+  padding: 30px;
+  margin-bottom: 50px;
 }

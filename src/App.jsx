@@ -5,6 +5,8 @@ import ceasar from "./assets/images/ceasar.png";
 import french_fries from "./assets/images/french_fries.png";
 import salad from "./assets/images/salad.png";
 import soda from "./assets/images/soda.png";
+import Menu from "./components/Menu/Menu";
+import Bill from "./components/Bill/Bill";
 const App = () => {
   const products = [
     { id: 1, name: "همبرگر معمولی ", price: "35000", url: hamburger },
@@ -36,7 +38,8 @@ const App = () => {
 
   return (
     <div className="container">
-      <ProductList products={products} />
+        <Menu  products={products} />
+        <Bill />
     </div>
   );
 };
