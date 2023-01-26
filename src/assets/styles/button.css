@@ -1,0 +1,22 @@
+.btn-product{
+    background-color: rgb(194, 2, 2);
+    color: #fff;
+    border: none;
+    width: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+ 
+}
+
+.btn-radius-1{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+
+.btn-radius-2{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+}
